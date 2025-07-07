@@ -1,0 +1,20 @@
+name: agio_drive
+version: 0.0.1
+label: agio Drive
+description: |
+  agio Drive service
+icon: 'core/agio-logo.png'
+
+urls:
+  home_page: ""
+  documentation: ""
+  bug_tracker: "https://github.com/agio/agio-drive/issues"
+
+dependencies: []
+
+repository_api: gitea
+
+plugins:
+  - label: agio Drive Service
+    implementations:
+      - module: plugins/services/drive_service.py
