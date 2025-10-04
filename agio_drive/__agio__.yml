@@ -14,7 +14,7 @@ dependencies: []
 
 repository_api: gitea
 
-plugins:
-  - label: agio Drive Service
-    implementations:
-      - module: plugins/services/drive_service.py
+#plugins:
+#  - label: agio Drive Service
+#    implementations:
+#      - module: plugins/services/drive_service.py
