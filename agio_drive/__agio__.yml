@@ -10,9 +10,14 @@ urls:
   documentation: ""
   bug_tracker: "https://github.com/agio/agio-drive/issues"
 
-dependencies: []
+agio_package_dependencies: [
+  'agio-core==0.0.1'
+]
 
 repository_api: gitea
+
+callbacks:
+  - plugins/callbacks/pipe_callbacks.py
 
 #plugins:
 #  - label: agio Drive Service
