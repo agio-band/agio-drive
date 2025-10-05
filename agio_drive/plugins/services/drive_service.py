@@ -9,14 +9,12 @@ class DriveServicePlugin(ProcessServicePlugin):
     def before_start(self):
         @subscribe('core.settings.local_settings_loaded')
         def update_settings_value(event, payload):
-            # TODO
             pass
             # drive_settings = {}
             # payload['settings'].set('agio_drive.cache_dir', drive_settings['cacheDir'])
 
         @subscribe('core.settings.local_settings_saved')
         def update_settings_value(event, payload):
-            # TODO
             pass
             # cache_dir = payload['settings'].get('agio_drive.cache_dir')
 
