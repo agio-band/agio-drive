@@ -1,8 +1,8 @@
-from agio.core.events import callback
+from agio.core.events import callback, AEvent
 
 
 @callback('pipe.publish.before_start', raise_error=True)
-def on_before_start_publish(event, payload = None):
+def on_before_start_publish(event: AEvent):
     # check drive is started
     # get checking is enabled from settings
     from agio_drive.utils import drive_app
