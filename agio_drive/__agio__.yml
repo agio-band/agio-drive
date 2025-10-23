@@ -6,15 +6,15 @@ description: |
 icon: 'core/agio-logo.png'
 
 urls:
-  home_page: ""
-  documentation: ""
+  source_url: "https://github.com/agio-band/agio-drive"
+  home_page: "https://github.com/agio-band/agio-drive"
+  documentation: "https://github.com/agio-band/agio-drive"
   bug_tracker: "https://github.com/agio/agio-drive/issues"
 
 agio_package_dependencies: [
   'agio-core==0.0.1'
 ]
 
-repository_api: gitea
 
 callbacks:
   - plugins/callbacks/pipe_callbacks.py
