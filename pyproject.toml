@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = []
+license = "MIT"
 
 [tool.setuptools]
 include-package-data = true
