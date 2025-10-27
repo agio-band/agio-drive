@@ -1,5 +1,5 @@
 name: agio_drive
-version: 0.0.1
+version: 0.0.2
 label: agio Drive
 description: |
   agio Drive service
@@ -12,7 +12,7 @@ urls:
   bug_tracker: "https://github.com/agio/agio-drive/issues"
 
 agio_package_dependencies: [
-  'agio-core==0.0.1'
+  'agio-core>=0.0.1'
 ]
 
 
