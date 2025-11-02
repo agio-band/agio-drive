@@ -1,8 +1,7 @@
 name: agio_drive
-version: 0.0.3
-label: agio Drive
+label: agio.drive
 description: |
-  agio Drive service
+  agio.drive service
 icon: 'core/agio-logo.png'
 
 urls:
@@ -11,8 +10,8 @@ urls:
   documentation: "https://github.com/agio-band/agio-drive"
   bug_tracker: "https://github.com/agio/agio-drive/issues"
 
-agio_package_dependencies: [
-  'agio-core>=0.0.1'
+required_packages: [
+  'agio-core>=0.0.4'
 ]
 
 
